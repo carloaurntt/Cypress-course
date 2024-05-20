@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.5",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "@cypress/webpack-preprocessor": "latest",
+    "@shelex/cypress-allure-plugin": "2.34.0",
+    "cypress-xpath": "^2.0.1",
+    "ts-loader": "latest",
+    "webpack": "^5.76.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": [
+      "./cypress/e2e/[filepath]/**/*.{js,ts}",
+      "./cypress/e2e/[filepath].{js,ts}",
+      "./cypress/e2e/stepDefinitions/*.{js,ts}",
+      "./cypress/e2e/stepDefinitions/**/*.{js,ts}"
+    ]
+  },
+  "devDependencies": {
+    "@cypress/xpath": "^2.0.3",
+    "cypress": "^13.7.3",
+    "prettier-plugin-gherkin": "^1.1.1",
+    "typescript": "^5.4.5"
+  }
