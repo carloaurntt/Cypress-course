@@ -1,0 +1,10 @@
+# Ignore node_modules
+node_modules/
+
+cypress/screenshots/*
+cypress/videos/*
+cypress/downloads/*
+package-lock.json
+results/
+allure-results/
+allure-report/
