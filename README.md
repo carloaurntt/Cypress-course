@@ -1,4 +1,4 @@
-# ita-qate-aol-automation
+# Cypress course for NTT
 
 ## Prerequisites
 
